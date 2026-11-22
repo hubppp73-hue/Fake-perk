@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fakeperks",
+  "version": "1.0.0",
+  "name": "Fałszywe Perki Szamana",
+  "description": "Tylko klient: podmienia wyświetlane bonusy perków w menu szamana.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.fakeperks.FakePerksClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "fabric-api": "*"
+  }
+}
